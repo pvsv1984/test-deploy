@@ -15,5 +15,5 @@ jobs:
     - uses: wangchucheng/git-repo-sync@v0.1.0
       with:
         target-url: https://gitlab.com/pvsv1984/test-mirror.git
-        target-username: ${{ secrets.TARGET_USERNAME }}
+        target-username: pvsv1984
         target-token: ${{ secrets.TARGET_TOKEN }}
